@@ -23,9 +23,9 @@ class Song
   end
   
   def self.create_by_name(name)
-    song = self.create
-    song.name = name
-    return song
+    new_song = self.create
+    new_song.name = name
+    return song 
   end
   
   def self.find_by_name(name)
@@ -34,7 +34,6 @@ class Song
   
   def self.find_or_create_by_name(name)
     self.create_by_name(name) || self.find_by_name(name)
-    if song.name.include?(song)
       
   end 
 end
