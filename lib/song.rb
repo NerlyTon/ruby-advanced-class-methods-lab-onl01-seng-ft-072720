@@ -41,7 +41,7 @@ class Song
    end
  end
  
-  def 
+  def self.al
       
 
 end
