@@ -19,7 +19,7 @@ class Song
   def self.new_by_name(name)
     song = self.new
     song.name = song
-    return song
+    return song.to_s
   end
 
 end
