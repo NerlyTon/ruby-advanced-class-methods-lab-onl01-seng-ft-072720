@@ -26,4 +26,5 @@ class Song
     song = self.create
     song.name = name
     return song
+  end
 end
